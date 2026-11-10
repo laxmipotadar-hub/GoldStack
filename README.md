@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GoldStack • Immutable Gold Ledger System
 > **Cryptographically Verified Jewellery Job-Work & Karigar Ledger Platform**
 > Built with TypeScript, React, Express, PostgreSQL, SHA-256 Hash Chaining, Google Cloud Storage, and Koshish Heritage Design System.
@@ -192,3 +193,7 @@ pnpm run dev
 pnpm run build
 ```
 
+=======
+# GoldStack
+will add
+>>>>>>> 774af91a8287247b305487dd51326d1f70ffc52b
