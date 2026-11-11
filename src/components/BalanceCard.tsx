@@ -181,7 +181,7 @@ export const BalanceCard: React.FC<BalanceCardProps> = ({
                 {t('status.pendingConfirmation', { count: balance?.pending_confirmation_count || 0 })}
               </p>
               <p className="font-label-vernacular text-[11px] text-muted">
-                {t('status.pendingGramsWaiting', { grams: balance?.pending_confirmation_grams.toFixed(3) })}
+                {t('status.pendingGramsWaiting', { grams: (balance?.pending_confirmation_grams ?? 0).toFixed(3) })}
               </p>
             </div>
           </div>
